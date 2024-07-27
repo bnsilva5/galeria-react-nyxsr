@@ -1,4 +1,4 @@
-import image6b from '../assets/img/image6b.webp'
+import image6b from '../assets/img/image6b.jpg'
 import PropTypes from 'prop-types';
 
 export const Image6b = ({className}) => {

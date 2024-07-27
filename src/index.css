@@ -1,3 +1,29 @@
 body {
-    background-color: darkred;
+    background-color: black;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image:
+        linear-gradient(90deg, green 2px, transparent 2px),
+        linear-gradient(180deg, green 2px, transparent 2px);
+    background-size: 110px 110px;
+    opacity: 0.10;
+    box-shadow:
+        0 0 5px greenyellow,
+        0 0 10px greenyellow,
+        0 0 15px greenyellow,
+        0 0 20px green,
+        0 0 25px green,
+        0 0 30px green,
+        0 0 35px green;
+    z-index: -1;
 }

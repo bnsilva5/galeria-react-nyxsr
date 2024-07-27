@@ -1,0 +1,27 @@
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.background::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: 
+        linear-gradient(90deg, green 2px, transparent 2px), 
+        linear-gradient(180deg, green 2px, transparent 2px);
+    background-size: 50px 50px; /* Ajusta este valor para cambiar la separación de las líneas */
+    opacity: 0.7;
+    box-shadow: 
+        0 0 5px green, 
+        0 0 10px green, 
+        0 0 15px green, 
+        0 0 20px green; /* Efecto de resplandor verde neón */
+}
