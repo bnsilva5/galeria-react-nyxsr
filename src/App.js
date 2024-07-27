@@ -8,13 +8,14 @@ import { Image5b } from './components/Image5b.jsx';
 import { Image6b } from './components/Image6b.jsx';
 import { Image7b } from './components/Image7b.jsx';
 import { Navigation } from './components/Navigation';
+import ChipBackground from './components/ChipBackground.jsx';
 
 function App() {
   return (
     <>
       <BrowserRouter>
         <div>
-          <h1 id="title" className='text-center my-3'>Proyecto Galería</h1>
+          <h1 id="title" className='text-center my-3'>NyxGallery</h1>
         </div>
         <div id='main-img-container' className='container'>
           <Routes>
